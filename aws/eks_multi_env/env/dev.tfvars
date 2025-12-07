@@ -1,0 +1,11 @@
+aws_region    = "us-east-1"
+environment   = "dev"
+project_name  = "myproject"
+cluster_name  = "eks-dev"
+cluster_version = "1.28"
+desired_capacity = 2
+min_capacity     = 1
+max_capacity     = 3
+instance_type    = "t3.medium"
+vpc_cidr         = "10.0.0.0/16"
+availability_zones = ["us-east-1a", "us-east-1b"]

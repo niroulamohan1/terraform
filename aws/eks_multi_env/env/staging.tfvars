@@ -1,0 +1,11 @@
+aws_region    = "us-east-1"
+environment   = "staging"
+project_name  = "myproject"
+cluster_name  = "eks-staging"
+cluster_version = "1.28"
+desired_capacity = 3
+min_capacity     = 2
+max_capacity     = 5
+instance_type    = "t3.large"
+vpc_cidr         = "10.1.0.0/16"
+availability_zones = ["us-east-1a", "us-east-1b"]
